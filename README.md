@@ -3,8 +3,8 @@
 ---
 CS 3300 Group Project
 
-Jack Dodge
-West Manison
-George Morales
+Jack Dodge,
+West Manison,
+George Morales,
 Sebastian Sanchez
 
