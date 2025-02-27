@@ -1,7 +1,7 @@
-# WManison.github.io
+# www.mlg-johndoe.com
 
 ---
-CS 3300 Group Project
+### CS 3300 Group Project
 
 Jack Dodge,
 West Manison,
