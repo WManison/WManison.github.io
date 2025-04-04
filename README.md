@@ -4,6 +4,12 @@
 
 A personal portfolio website showcasing the work, skills, and contact information of John Doe, built for CS 3300, at University of Colorado, Colorado Springs.
 
+## Contributors
+Jack Dodge
+West Manison
+George Morales
+Sebastian Sanchez
+
 ## Project Overview
 
 This site serves as a professional online presence for John Doe, featuring:
