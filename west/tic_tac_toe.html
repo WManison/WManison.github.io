@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./tic_tac_toe.css">
-    <link rel="stylesheet" href="../ProjectWebsite.css">
+    <link rel="stylesheet" href="../ProjectWebsite.css"-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>West Test Page</title>
 </head>
 <body>
@@ -12,19 +12,23 @@
     <div class="boxContent2">
         <p>This is a classic tic-tac-toe game, the game auto-resets after a win and can be reset manually with the 'reset' button</p>
     </div>
-    <!-- designate cells for a 3x3 box for tic tac toe (use ./tic_tac_toe.css for styling) -->
     <div class="game-container">
-        <div id="game">
-            <div class = "cell" data-index="0"></div>
-            <div class = "cell" data-index="1"></div>
-            <div class = "cell" data-index="2"></div>
-            <div class = "cell" data-index="3"></div>
-            <div class = "cell" data-index="4"></div>
-            <div class = "cell" data-index="5"></div>
-            <div class = "cell" data-index="6"></div>
-            <div class = "cell" data-index="7"></div>
-            <div class = "cell" data-index="8"></div>
-        </div>
+        <div class="boxContent-ProjectWebsiteCopy">
+            <div id="game">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <div>
+                <input type="button" value="Restart" id="restartButton" onclick="restartButton()"/>
+            </div>   
+        <script src="tic_tac_toe.js"></script>
     </div>
 </body>
 </html>
