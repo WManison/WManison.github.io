@@ -1,5 +1,9 @@
 /*
+    TIC TAC TOE
     West Manison
+    Copyright (c) 2025 West Manison. All rights reserved.
+    Licensed under the MIT License.
+    
     Last edited: 4/7/2025
     Description: adds interactivity with tic tac toe game. must check for specific winning combinations
     and return appropriate game-ending message.
