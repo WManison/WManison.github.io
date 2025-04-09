@@ -1,0 +1,46 @@
+Snake Psucodoe
+
+import nesscary modules
+
+define global constants that will be used for various parts of the code
+
+define snake class{
+    define snake properties like position, direction, and length
+
+    define methods for snake movement, growth, and collision detection
+
+    define method to draw the snake on the screen
+}
+
+define fruit class{
+    define fruit properties like position and type
+
+    define method to spawn fruit at random positions
+
+    define method to draw the fruit on the screen
+}
+
+define main function{
+    initialize game window and set up graphics
+
+    create instances of snake and fruit
+
+    define game loop{
+        check for user input to control snake direction
+
+        update snake position based on direction
+
+        check for collisions with self and walls
+        if collision occurs, end game
+
+        update score if fruit is eaten
+
+        redraw the screen with updated positions of snake and fruit
+    }
+
+    display end game message and score
+
+    ask user if they want to play again
+
+    restart game or close the window and end the program
+}
