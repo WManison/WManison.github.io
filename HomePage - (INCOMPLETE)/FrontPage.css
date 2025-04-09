@@ -1,0 +1,215 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ui-rounded, sans-serif;
+    background-color: rgb(162, 164, 163);
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo a {
+    text-decoration-color: #f5a623;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar .nav-links {
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 80px;
+}
+
+.navbar .nav-links li {
+    display: inline-block; 
+    position: relative; 
+    padding: 0px 10px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: relative;
+    transition: all color 0.4s ease 0s;
+}
+
+
+.navbar .nav-links li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.navbar .nav-links li:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-links li .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .nav-links li .dropdown-menu li a:hover {
+    background-color: #f5a623;
+}
+
+/* Active link styling */
+.navbar .nav-links li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f5a623;
+    transition: width 0.4s ease;
+}
+
+.navbar .nav-links li a:hover::before {
+    width: 100%;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f5a623;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search {
+        margin-top: 5px;
+    }
+}
+
+.boxHeader {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #333;
+
+    color: #d19d48;
+    font-size: 190%;
+
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 4px 8px rgba(212, 206, 206, 0.1);
+    border-radius: 80px;
+    font-family: ui-rounded, sans-serif;
+    font-weight: bold;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+
+}
+
+.boxContent {
+
+    display: flex;                /* Use flexbox to lay out children horizontally */
+    justify-content: space-between; /* Space between boxLeft and boxRight */
+    align-items: flex-start;       /* Align them to the top */
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+
+    background-color: #333;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+
+    color: rgb(255, 255, 255);
+    font-size: 190%;
+}
+
+.boxContentLeft {
+    justify-content: left;
+    background-color: #333;
+
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+    width: 50%;
+
+
+    padding: 50px;
+
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+
+}
+
+.boxContentRight {
+
+    justify-content: right;
+
+    background-color: white;
+    border: 3px solid #f5a623;
+    text-decoration-color: hsl(37, 91%, 55%);
+    border-radius: 20px;
+    width: 45%;
+
+
+    padding: 50px;
+
+    color: rgb(255, 255, 255);
+    font-size: 86%;
+}
+
+
+.boxContent2 {
+    justify-content: left;
+    background-color: #333;
+
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+
+    padding: 50px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+    color: rgb(255, 255, 255);
+    font-size: 190%;
+}
