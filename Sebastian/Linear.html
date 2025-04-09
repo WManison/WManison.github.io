@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Linear.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">MoutainLionGateWay</a>
+            </div>
+            <ul class="nav-links">
+
+                <li><a href="#">Sebastian Sanchez</a></li>
+                <li><a href="#">West Manison</a></li>
+                <li><a href="#">George Morales</a></li>
+                <li><a href="#">Jack Dodge</a></li>
+            </ul>
+            
+            <button class="button">Sign In</button>
+        </nav>
+    </header>
+
+    <div class="boxHeader">
+        <p> John Doe - Software Developer </p>
+        <p> Linear Algebra - Hill Cipher-Encryption </p>
+    </div>
+
+
+    <div class="matrixEncryption">
+        <h1>Matrix Encryption</h1>
+
+        <label for="message">Enter your message:</label>
+        <input type="text" id="message" placeholder="Type your message here">
+        <button onclick="encryptMessageFromInput()">Encrypt Message</button>
+        <div class="main2">
+            <h2>Original and Encrypted Message Matrix:</h2>
+            <div class="textBox">
+                <textarea id="outputBox" rows="10" cols="50" readonly></textarea>
+            </div>
+        </div>
+        <script src="Linear.js"></script>
+    </div>
+
+
+    <div class="boxHeader">
+
+    </div>
+
+    <div class="matrixDencryption">
+        <h1> Matrix Dencryption</h1>
+        <label for="message">Enter your message:</label>
+        <input type="text" id="message" placeholder="Type your message here">
+        <button onclick="encryptMessageFromInput()">Encrypt Message</button>
+        <div class="main2">
+            <h2>Original and Encrypted Message Matrix:</h2>
+            <div class="textBox">
+                <textarea id="outputBox" rows="10" cols="50" readonly></textarea>
+            </div>
+        </div>
+        <script src="Linear.js"></script>
+    </div>
+
+    </div>
+
+</body>
+</html>

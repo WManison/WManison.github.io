@@ -1,0 +1,225 @@
+body {
+    background-color: rgba(194, 178, 178, 0.666);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo a {
+    text-decoration-color: #f5a623;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: relative;
+    transition: color 0.4s ease;
+}
+
+.navbar .nav-links li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f5a623;
+    transition: width 0.4s ease;
+}
+
+.navbar .nav-links li a:hover::before {
+    width: 100%;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f5a623;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
+.button {
+    background-color: white; /* Green background */
+    border: none; /* No border */
+    color: black; /* White text */
+    padding: 12px 24px; /* Padding inside the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Slightly bold text */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #f5a623; /* Darker green on hover */
+    transform: translateY(-2px); /* Slightly raise the button */
+}
+
+
+.button:active {
+    background-color: #f5a623; /* Even darker green when pressed */
+    transform: translateY(0); /* Reset transform on click */
+}
+
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #f5a623; 
+}
+
+.boxHeader {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px gold;
+    font-size: 150%;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 8px rgba(212, 206, 206, 0.1);
+    border-radius: 50px;
+    font-family: ui-rounded, sans-serif;
+    font-weight: bold;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.matrixEncryption {
+    overflow:auto;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px gold;
+    font-size: 100%;
+    
+
+    box-shadow: 0 4px 8px rgba(212, 206, 206, 0.1);
+    border-radius: 80px;
+    font-family: ui-rounded, sans-serif;
+    font-weight: bold;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+   
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.textBox {
+    padding: 25px;
+    overflow: auto;
+    
+}
+
+.encryptionButton {
+    background-color: white; /* Green background */
+    border: none; /* No border */
+    color: black; /* White text */
+    padding: 12px 24px; /* Padding inside the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Slightly bold text */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+
+.encryptionButton:hover {
+    background-color: #f5a623; /* Darker green on hover */
+    transform: translateY(-2px); /* Slightly raise the button */
+}
+
+
+.encryptionButton:active {
+    background-color: #f5a623; /* Even darker green when pressed */
+    transform: translateY(0); /* Reset transform on click */
+}
+
+
+.encryptionButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #f5a623; 
+}
+
+.matrixDencryption{
+    overflow:auto;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px gold;
+    font-size: 100%;
+    
+
+    box-shadow: 0 4px 8px rgba(212, 206, 206, 0.1);
+    border-radius: 80px;
+    font-family: ui-rounded, sans-serif;
+    font-weight: bold;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+   
+}
