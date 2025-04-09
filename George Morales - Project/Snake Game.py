@@ -3,7 +3,7 @@ Snake Game
 George D. Morales
 4/8/2025
 University of Colorado Colorado Springs
-Copyright (c) 2025 George D. Morale. All rights reserved.
+Copyright (c) 2025 George D. Morales. All rights reserved.
 Licensed under the MIT License.
 
 This is a simple implementation of the classic Snake game using the Pygame module.
