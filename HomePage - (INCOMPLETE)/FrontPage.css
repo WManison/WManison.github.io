@@ -161,6 +161,14 @@ body {
     font-size: 190%;
 }
 
+.boxContent img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
 .boxContentLeft {
     justify-content: left;
     background-color: #333;
