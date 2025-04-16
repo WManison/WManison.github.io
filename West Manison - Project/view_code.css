@@ -1,0 +1,29 @@
+/* stylize a backlink */
+a.back-link {
+    color: #f5a623;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #f8f8f2;
+    font-family: monospace;
+    padding: 40px;
+}
+
+h1 {
+    color: #f5a623;
+}
+
+pre {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code {
+    white-space: pre-wrap;
+}

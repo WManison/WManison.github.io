@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Source Code: tic_tac_toe.js</title>
+    <link rel="stylesheet" href="./view_code.css">
+</head>
+<body>
+
+    <a href="tic_tac_toe.html" class="back-link">← Back to Tic Tac Toe</a>
+    <h1>tic_tac_toe.css</h1>
+    <pre><code id="codeBlock">Loading code...</code></pre>
+
+    <script>
+        fetch('tic_tac_toe.css')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('codeBlock').textContent = data;
+          })
+          .catch(error => {
+            document.getElementById('codeBlock').textContent = 'Error loading code.';
+            console.error(error);
+          });
+    </script>
+
+</body>
+</html>
