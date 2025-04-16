@@ -1,11 +1,12 @@
 /*
     TIC TAC TOE
     West Manison
+    CS 3300-002 - University of Colorado, Colorado Springs
     Copyright (c) 2025 West Manison. All rights reserved.
     Licensed under the MIT License.
     
-    Last edited: 4/7/2025
-    Description: adds interactivity with tic tac toe game. must check for specific winning combinations
+    Last edited: 4/16/2025
+    Description: adds interactivity for tic tac toe game. must check for specific winning combinations
     and return appropriate game-ending message.
 */
 
