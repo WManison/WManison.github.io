@@ -10,7 +10,6 @@ body {
     background-color: #1e1e1e;
     color: #f8f8f2;
     font-family: monospace;
-    padding: 40px;
 }
 
 h1 {
@@ -26,4 +25,118 @@ pre {
 
 code {
     white-space: pre-wrap;
+}
+
+.container {
+    padding: 40px
+}
+/*  
+    Navbar styling 
+
+    Taken from FrontPage.css, created by Sebastian Sanchez
+*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo a {
+    text-decoration-color: #f5a623;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar .nav-links {
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 80px;
+}
+
+.navbar .nav-links li {
+    display: inline-block; 
+    position: relative; 
+    padding: 0px 10px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: relative;
+    transition: all color 0.4s ease 0s;
+}
+
+
+.navbar .nav-links li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.navbar .nav-links li:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-links li .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .nav-links li .dropdown-menu li a:hover {
+    background-color: #f5a623;
+}
+
+/* Active link styling */
+.navbar .nav-links li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f5a623;
+    transition: width 0.4s ease;
+}
+
+.navbar .nav-links li a:hover::before {
+    width: 100%;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f5a623;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search {
+        margin-top: 5px;
+    }
 }
