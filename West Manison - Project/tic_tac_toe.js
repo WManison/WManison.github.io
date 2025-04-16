@@ -33,7 +33,7 @@ const winning_combinations = [
     [2, 4, 6]
 ]
 
-// 
+// PLAY THE GAME 
 for(let i = 0; i < squares.length; i++){
     squares[i].addEventListener('click', () => {
         if(squares[i].textContent !== ''){
