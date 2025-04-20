@@ -18,8 +18,10 @@ The game is played using the arrow keys to control the snake's direction.
 #import the pygame module to create the game window and display the game elements
 import pygame
 from pygame.locals import *
-# import the random module to generate random numbers for the fruit's position
+#import the random module to generate random numbers for the fruit's position
 import random
+#import the asyncio module to create asynchronous functions
+import asyncio
 
 #set the colors to be used in the game
 #these colors are used to set the background color, the snake color, and the fruit color
