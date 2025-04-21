@@ -161,7 +161,7 @@ class Fruit:
 #this function will be used to run the game and its main loop
 #this function will be called when a game is started via the restart game option
 #and when the code is run
-def main():
+async def main():
     #initialize the pygame module by calling the pygame.init() function
     #this function will be used to initialize all the modules that are imported
     #from the pygame module in order to properly create and run the game and its elements
@@ -304,6 +304,7 @@ def main():
             snake.set_direction((0, 0))
             #end the game loop
             run_game = False
+        await asyncio.sleep(0)
     #end of the game loop
 
     #clear the screen by making it all black
@@ -337,11 +338,12 @@ def main():
                 #if the key pressed is the Y key, then restart the game by going back to the
                 #beginning of the main function and set wait_for_input to False
                 if event.key == pygame.K_y:
-                    main()
+                    await main()
                     wait_for_input = False
                 #if the key pressed is the N key, then set wait_for_input to False
                 elif event.key == pygame.K_n:
                     wait_for_input = False
+
 
     #quit the pygame module by calling the pygame.quit() function
     #this function will be used to quit the game and close the game window
@@ -371,4 +373,4 @@ def draw_grid(WINDOW_WIDTH, WINDOW_HEIGHT, SCREEN, GRIDLINE_COLOR):
 
 #call the main function to run the program
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())
