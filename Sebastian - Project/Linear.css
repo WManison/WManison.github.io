@@ -1,6 +1,16 @@
-body {
-    background-color: rgba(194, 178, 178, 0.666);
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: ui-rounded, sans-serif;
+    background-color: rgb(162, 164, 163);
+}
+
+/* Navbar styling */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,13 +28,17 @@ body {
 }
 
 .navbar .nav-links {
+    font-size: 100%;
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-right: 80px;
 }
 
 .navbar .nav-links li {
-    display: inline;
+    display: inline-block; 
+    position: relative; 
+    padding: 0px 10px;
 }
 
 .navbar .nav-links li a {
@@ -33,9 +47,39 @@ body {
     color: rgb(255, 255, 255);
     font-size: 18px;
     position: relative;
-    transition: color 0.4s ease;
+    transition: all color 0.4s ease 0s;
 }
 
+
+.navbar .nav-links li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.navbar .nav-links li:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-links li .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .nav-links li .dropdown-menu li a:hover {
+    background-color: #f5a623;
+}
+
+/* Active link styling */
 .navbar .nav-links li a::before {
     content: "";
     position: absolute;
@@ -56,7 +100,6 @@ body {
 }
 
 
-
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -69,6 +112,9 @@ body {
         gap: 15px;
     }
 
+    .search {
+        margin-top: 5px;
+    }
 }
 
 .button {
@@ -199,7 +245,7 @@ body {
     box-shadow: 0 0 0 3px #f5a623; 
 }
 
-.matrixDencryption{
+.matrixDecryption {
     overflow:auto;
     margin-top: 50px;
     margin-left: 250px;

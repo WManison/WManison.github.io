@@ -11,17 +11,38 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="#">MoutainLionGateWay</a>
+                <a href="#">MoutianLionGateWay</a>
             </div>
             <ul class="nav-links">
-
-                <li><a href="#">Sebastian Sanchez</a></li>
-                <li><a href="#">West Manison</a></li>
-                <li><a href="#">George Morales</a></li>
-                <li><a href="#">Jack Dodge</a></li>
+                <li class="dropdown">
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">About Me</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">HandShake</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Tic-Tac-Toe</a></li>
+                        <li><a href="#">Snake</a></li>
+                        <li><a href="#">Puzzle Encryption</a></li>
+                        <li><a href="#">PLACEHOLDER - JACK</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Sub Item 1</a></li>
+                        <li><a href="#">Sub Item 2</a></li>
+                    </ul>
+                </li>
             </ul>
-            
-            <button class="button">Sign In</button>
         </nav>
     </header>
 
@@ -47,25 +68,24 @@
     </div>
 
 
-    <div class="boxHeader">
+    <div class="boxHeader"></div>
 
-    </div>
-
-    <div class="matrixDencryption">
-        <h1> Matrix Dencryption</h1>
-        <label for="message">Enter your message:</label>
-        <input type="text" id="message" placeholder="Type your message here">
-        <button onclick="encryptMessageFromInput()">Encrypt Message</button>
-        <div class="main2">
-            <h2>Original and Encrypted Message Matrix:</h2>
+        <div class="matrixDecryption">
+            <h2>Decrypt Encrypted Message:</h2>
+            <h2>Enter encrypted matrix (as JSON):</h2>
+            <textarea id="encryptedInput" rows="10" cols="50" placeholder="Paste matrix like [[...],[...],[...],[...]]"></textarea>
+            <br>
+            <button onclick="decryptMessageFromInput()">Decrypt Message</button>
             <div class="textBox">
-                <textarea id="outputBox" rows="10" cols="50" readonly></textarea>
+                <h2>Decrypted Message:</h2>
+                <textarea id="decryptedOutput" rows="4" cols="50" readonly></textarea>
             </div>
-        </div>
+
+    
+        <!-- Script -->
         <script src="Linear.js"></script>
     </div>
-
-    </div>
+    
 
 </body>
 </html>
