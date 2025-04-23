@@ -30,8 +30,8 @@ This site serves as a professional online presence for John Doe, featuring:
 
 ## Tech Stack
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 - **Python**
 - **ADD IN ANY LIBRARIES/TOOLS WE'RE USING HERE**

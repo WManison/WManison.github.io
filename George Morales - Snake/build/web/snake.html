@@ -340,11 +340,28 @@ config = {
     </style>
 
     <script src="https://pygame-web.github.io/pygbag/0.0//browserfs.min.js"></script>
-
+        <link rel="stylesheet" href="../../../stylesheets/ProjectWebsite.css">
 </head>
 
 <body>
-
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">John Doe</a>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Source Code</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./view_python_code.html">Python</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div id="transfer" align=center>
 <!--        <div class="spinner" id='spinner'></div> -->
         <div class="emscripten" id="status">Downloading...</div>
