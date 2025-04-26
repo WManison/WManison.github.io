@@ -6,6 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="icon" type="image/png" href="../assets/flavicon.png">
+    
+    <!-- basic form taken from historical code (../stylesheets/ProjectWebsite.css) -->
+    <style>
+        .contact-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 15px;
+        }
+    
+        .contact-form label {
+            font-size: 18px;
+            color: white;
+        }
+    
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #f5a623;
+            border-radius: 8px;
+            background-color: #222;
+            color: white;
+            font-size: 16px;
+            resize: none;
+        }
+    
+        .contact-form button {
+            margin-top: 10px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #f5a623;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    
+        .contact-form button:hover {
+            background-color: #d18b23;
+        }
+    </style>
+    
+
 </head>
 <body>
     <header>
@@ -24,22 +71,22 @@
         <h1>Contact Me</h1>
     </div>
 
-    <div class="boxContent">
-        <formaction="https://formspree.io/f/mqaqadvj" method="POST">
+    <div class="boxContent2">
+        <form action="https://formspree.io/f/mqaqadvj" method="POST" class="contact-form">
             <label>
                 Name: <br>
                 <input type="name" name="name" required>
-            </label><br><br>
+            </label><br>
         
             <label>
-                Your email: <br>
+                Email: <br>
                 <input type="email" name="email" required>
-            </label><br><br>
+            </label><br>
 
             <label>
-                Your message:<br>
+                Message:<br>
                 <textarea name="message" required></textarea>
-            </label><br><br>
+            </label><br>
 
             <button type="submit">Send</button>
         </form>
