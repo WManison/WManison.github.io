@@ -45,7 +45,12 @@ You can view the site here: [https://mlg-johndoe.com](https://mlg-johndoe.com)
 
 To run the site locally:
 
-```bash
+#### bash
 git clone https://github.com/WManison/WManison.github.io
 cd WManison.github.io
-open index.html
+open index.html 
+
+#### windows (git bash)
+git clone https://github.com/WManison/WManison.github.io
+cd WManison.github.io
+start index.html
