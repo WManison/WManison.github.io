@@ -34,6 +34,7 @@ This site serves as a professional online presence for John Doe, featuring:
 - **CSS**
 - **JavaScript**
 - **Python**
+- **Formspree**
 - **ADD IN ANY LIBRARIES/TOOLS WE'RE USING HERE**
 
 ## Live Demo
