@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../stylesheets/ProjectWebsite.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/png" href="../assets/flavicon.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">John Doe</a>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="../index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="boxHeader">
+        <h1>Contact Me</h1>
+    </div>
+
+    <div class="boxContent">
+        <formaction="https://formspree.io/f/mqaqadvj" method="POST">
+            <label>
+                Name: <br>
+                <input type="name" name="name" required>
+            </label><br><br>
+        
+            <label>
+                Your email: <br>
+                <input type="email" name="email" required>
+            </label><br><br>
+
+            <label>
+                Your message:<br>
+                <textarea name="message" required></textarea>
+            </label><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
