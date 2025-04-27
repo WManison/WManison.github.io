@@ -153,8 +153,8 @@ body {
 
     background-color: #333;
 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
 
     color: rgb(255, 255, 255);
@@ -220,4 +220,35 @@ body {
 
     color: rgb(255, 255, 255);
     font-size: 190%;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 115px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card p {
+  color: #666;
 }
