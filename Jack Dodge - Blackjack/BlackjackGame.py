@@ -1,3 +1,12 @@
+'''
+Blackjack Game
+Jack Dodge
+4/27/2025
+University of Colorado Colorado Springs
+Copyright (c) 2025 Jack Dodge. All rights reserved.
+Licensed under the MIT License.
+'''
+
 import pygame
 import random
 import sys
