@@ -153,8 +153,9 @@ body {
 
     background-color: #333;
 
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 55%;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
 
     color: rgb(255, 255, 255);
@@ -221,3 +222,89 @@ body {
     color: rgb(255, 255, 255);
     font-size: 190%;
 }
+
+.projectHeader {
+    
+    justify-content: left;
+    background-color: #333;
+
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+
+    display: inline-block;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    color: rgb(255, 255, 255);
+    font-size: 190%;
+}
+
+.card-container {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    background-color: #333;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+  
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 75px;
+    width: 325px;
+    height: 550px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px 6px 0 0;
+  }
+  
+.card-btn {
+    display: inline-block;
+
+    padding: 10px 16px;
+    background-color:  #f5a623;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+.card-btn:hover {
+    background-color: #fefefe;
+    text-decoration-color: black;
+  }
