@@ -141,68 +141,43 @@ body {
     text-decoration-color: #f5a623;
 
 }
-
 .boxContent {
-
-    display: flex;                /* Use flexbox to lay out children horizontally */
-    justify-content: space-between; /* Space between boxLeft and boxRight */
-    align-items: flex-start;       /* Align them to the top */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     border: 3px solid #f5a623;
-    text-decoration-color: #f5a623;
     border-radius: 20px;
-
     background-color: #333;
-
     width: 55%;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-
-    color: rgb(255, 255, 255);
+    margin: 50px auto;
+    color: white;
     font-size: 190%;
 }
 
-.boxContent img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
-
 .boxContentLeft {
-    justify-content: left;
-    background-color: #333;
-
-    text-decoration-color: #f5a623;
-    border-radius: 20px;
     width: 50%;
-
-
     padding: 50px;
-
-    color: rgb(255, 255, 255);
+    background-color: #333;
+    color: white;
     font-size: 100%;
-
 }
 
 .boxContentRight {
-
-    justify-content: right;
-
+    width: 45%;
+    padding: 50px;
     background-color: white;
     border: 3px solid #f5a623;
-    text-decoration-color: hsl(37, 91%, 55%);
     border-radius: 20px;
-    width: 45%;
-
-
-    padding: 50px;
-
-    color: rgb(255, 255, 255);
-    font-size: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.profileImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}
 
 .boxContent2 {
     justify-content: left;
