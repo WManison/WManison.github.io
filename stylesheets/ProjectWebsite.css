@@ -153,7 +153,7 @@ body {
 
     background-color: #333;
 
-    width: 35%;
+    width: 55%;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
@@ -232,9 +232,12 @@ body {
     text-decoration-color: #f5a623;
     border-radius: 20px;
 
+    display: inline-block;
+
     padding-top: 25px;
     padding-bottom: 25px;
-    
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -246,32 +249,33 @@ body {
 
 .card-container {
   display: flex;
-  gap: 20px;
+
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 115px;
+  margin-top: 55px;
 }
 
 .card {
-  background-color: #333;
-
-  border: 3px solid #f5a623;
-  text-decoration-color: #f5a623;
-  border-radius: 20px;
-
-  padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 75px;
-  width: 325px;
-  height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   
-  text-align: center;
-  vertical-align: top;
-
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
+    background-color: #333;
+    border: 3px solid #f5a623;
+    text-decoration-color: #f5a623;
+    border-radius: 20px;
+  
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 75px;
+    width: 325px;
+    height: 550px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
 
 .card h2 {
   margin-top: 0;
@@ -291,7 +295,7 @@ body {
   
 .card-btn {
     display: inline-block;
-    margin-top: 12px;
+
     padding: 10px 16px;
     background-color:  #f5a623;
     color: white;
