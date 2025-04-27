@@ -256,7 +256,7 @@ body {
 }
 
 .card {
-    text-decoration: underline;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
