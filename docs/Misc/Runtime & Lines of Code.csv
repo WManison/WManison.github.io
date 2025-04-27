@@ -1,0 +1,319 @@
+loadTime,docTime,fullyLoaded,bytesOut,bytesOutDoc,bytesIn,bytesInDoc,requests,requestsFull,requestsDoc,responses_200,responses_404,responses_other,result,testStartOffset,cached,optimization_checked,main_frame,loadEventStart,loadEventEnd,domContentLoadedEventStart,domContentLoadedEventEnd,URL,connections,final_base_page_request,final_base_page_request_id,final_url,domInteractive,firstContentfulPaint,firstPaint,firstImagePaint,firstMeaningfulPaint,renderBlockingCSS,renderBlockingJS,TTFB,score_cache,score_cdn,score_gzip,score_cookies,score_keep-alive,score_minify,score_combine,score_compress,score_etags,score_progressive_jpeg,gzip_total,gzip_savings,minify_total,minify_savings,image_total,image_savings,base_page_cdn,cpu.ParseHTML,cpu.HTMLDocumentParser::MaybeFetchQueuedPreloads,cpu.EventDispatch,cpu.V8.GC_TIME_TO_SAFEPOINT,cpu.CommitLoad,cpu.ResourceFetcher::requestResource,cpu.MarkDOMContent,cpu.ParseAuthorStyleSheet,cpu.UpdateLayoutTree,cpu.Layout,cpu.PrePaint,cpu.Paint,cpu.Layerize,cpu.largestContentfulPaint::Candidate,cpu.HitTest,cpu.FunctionCall,cpu.MarkLoad,cpu.Idle,tester,start_epoch,osVersion,os_version,osPlatform,date,browserVersion,browser_version,throttle_cpu_requested,throttle_cpu,fullyLoadedCPUms,fullyLoadedCPUpct,document_URL,document_hostname,document_origin,domElements,domComplete,PerformancePaintTiming.first-paint,PerformancePaintTiming.first-contentful-paint,base_page_ip_ptr,base_page_cname,base_page_dns_server,browser_name,eventName,test_run_time_ms,testUrl,Colordepth,Dpi,Images,Resolution,generated-content-percent,generated-content-size,meta-viewport,rendered-html,lastVisualChange,render,visualComplete85,visualComplete90,visualComplete95,visualComplete99,visualComplete,SpeedIndex,LargestContentfulPaintType,LargestContentfulPaintNodeType,chromeUserTiming.navigationStart,chromeUserTiming.redirectStart,chromeUserTiming.domLoading,chromeUserTiming.responseEnd,chromeUserTiming.domInteractive,chromeUserTiming.domContentLoadedEventStart,chromeUserTiming.domContentLoadedEventEnd,chromeUserTiming.domComplete,chromeUserTiming.redirectEnd,chromeUserTiming.fetchStart,chromeUserTiming.unloadEventStart,chromeUserTiming.unloadEventEnd,chromeUserTiming.markAsMainFrame,chromeUserTiming.commitNavigationEnd,chromeUserTiming.firstMeaningfulPaintCandidate,chromeUserTiming.firstContentfulPaint,chromeUserTiming.firstPaint,chromeUserTiming.firstImagePaint,chromeUserTiming.firstMeaningfulPaint,chromeUserTiming.loadEventStart,chromeUserTiming.loadEventEnd,chromeUserTiming.LargestTextPaint,chromeUserTiming.LargestImagePaint,chromeUserTiming.LargestContentfulPaint,chromeUserTiming.TotalLayoutShift,chromeUserTiming.CumulativeLayoutShift,maxFID,TTIMeasurementEnd,LastInteractive,TotalBlockingTime,testID,run,step,effectiveBps,domTime,aft,titleTime,domLoading,server_rtt,edge-processed,effectiveBpsDoc,bytes.html,requests.html,bytesUncompressed.html,bytes.js,requests.js,bytesUncompressed.js,bytes.css,requests.css,bytesUncompressed.css,bytes.image,requests.image,bytesUncompressed.image,bytes.flash,requests.flash,bytesUncompressed.flash,bytes.font,requests.font,bytesUncompressed.font,bytes.video,requests.video,bytesUncompressed.video,bytes.other,requests.other,bytesUncompressed.other,id,cpu.ResourceChangePriority,cpu.IntersectionObserverController::computeIntersections
+2104,2104,2267,18522,18522,325471,325471,9,9,9,8,0,1,0,0,0,1,53025AFB9FEEEB2FFA1ECDE534A82783,2035,2035,1362,1364,http://www.mlg-johndoe.com/,1,1,ACE858F6F864F776AA4FD3D50EFEEC78-2,https://mlg-johndoe.com/,1362,1964,1896,1964,1964,1,0,1162,0,100,100,-1,100,-1,-1,100,-1,-1,2341,0,-1,-1,186250,0,Fastly,17,7,0,0,0,25,0,15,14,69,8,20,10,0,0,10,0,2073,iad-us-asg-npsd-10.10.1.15,1745785814,Linux 6.8.0-1018-gcp,Linux 6.8.0-1018-gcp,x86_64 x86_64,1745785818,134.0.0.0,134.0.0.0,8,16,6599,55.32271584,https://mlg-johndoe.com/,mlg-johndoe.com,https://mlg-johndoe.com,60,2035,1896,1896,cdn-185-199-108-153.github.com,,ns59.domaincontrol.com,Chrome,Step_1,12812,http://www.mlg-johndoe.com/,24,"{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[{""url"":""https://mlg-johndoe.com/assets/John%20Doe-FINAL.png"",""width"":85,""height"":85,""naturalWidth"":500,""naturalHeight"":500},{""url"":""https://mlg-johndoe.com/assets/TicTacToe.png"",""width"":264,""height"":264,""naturalWidth"":2048,""naturalHeight"":2048},{""url"":""https://mlg-johndoe.com/assets/Snake.png"",""width"":264,""height"":264,""naturalWidth"":512,""naturalHeight"":512},{""url"":""https://mlg-johndoe.com/assets/Lock.png"",""width"":264,""height"":284,""naturalWidth"":594,""naturalHeight"":640},{""url"":""https://mlg-johndoe.com/assets/Blackjack.png"",""width"":264,""height"":261,""naturalWidth"":640,""naturalHeight"":633}]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}",-0.32,-0.01,"width=<device-width>, initial-scale=1.0","<html lang=""en""><head>
+    <link rel=""stylesheet"" href=""./stylesheets/ProjectWebsite.css"">
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=<device-width>, initial-scale=1.0"">
+    <title>John Doe</title>
+    <link rel=""icon"" type=""image/png"" href=""../assets/flavicon.png"">
+</head>
+<body>
+    <header>
+        <nav class=""navbar"">
+            <div class=""logo"">
+                <a href=""#"">John Doe</a>
+            </div>
+            <ul class=""nav-links"">
+                <li class=""dropdown"">
+                    <a href=""#"">About Me</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""https://github.com/JDoe-3300"" target=""_blank"">GitHub</a></li>
+                        <li><a href=""https://www.linkedin.com/in/john-doe-367895360/"" target=""_blank"">Linkedin</a></li>
+                        <li><a href=""./pages/resume.html"">Resume</a></li>
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""#"">Projects</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"">Tic-Tac-Toe</a></li>
+                        <li><a href=""./George Morales - Snake/build/web/snake.html"">Snake</a></li>
+                        <li><a href=""./Sebastian - Hill Cipher/Linear.html"">Hill Cipher</a></li>
+                        <li><a href=""./Jack Dodge - Blackjack/blackjack.html"">Blackjack</a></li>
+                        
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""./pages/contact_me.html"">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class=""boxHeader"">
+        <p> welcome!!!! </p>
+    </div>
+
+    <div class=""boxContent"">
+        <div class=""boxContentLeft"">
+            <p>
+                Welcome to my portfolio! My name is John Doe.
+            </p><br>
+            <p>
+                My passion is to learn and experiment with various technologies that help bring
+                my ideas and passions to life. I focus on honing my skills in game design, programming,
+                and daily automation. I’m excited to share my journey and passion with you.
+            </p>
+        </div>
+    
+        <div class=""boxContentRight"">
+            <img src=""../assets/John Doe-FINAL.png"" alt=""Profile image"" class=""profileImage"">
+        </div>
+    </div>
+
+    
+
+    <div class=""card-container"">
+        <div class=""card"">
+            <img src=""../assets/TicTacToe.png"" class=""card-img"">
+          <h2>TicTacToe</h2>
+
+
+          <a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Snake.png"" class=""card-img"">
+          <h2>Snake</h2>
+
+          <a href=""./George Morales - Snake/build/web/snake.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Lock.png"" class=""card-img"">
+
+
+          <h2>Encryption</h2>
+          <a href=""./Sebastian - Hill Cipher/Linear.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+
+        <div class=""card"">
+            <img src=""../assets/Blackjack.png"" class=""card-img"">
+
+
+          <h2>BlackJack</h2>
+          <a href=""./Jack Dodge - Blackjack/blackjack.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+      
+
+
+
+</div></body></html>",2000,2000,2000,2000,2000,2000,2000,2000,text,P,112,84,1263,1238,1431,1431,1433,2104,820,820,1262,1262,1262,1262,1963,1963,1963,1963,1963,2104,2104,1964,1964,1964,0,0,0,5444,2000,0,250427_BiDcHS_753,1,1,294543,0,0,112,0,0,1,345510,1054,2,3488,0,0,0,1287,1,5142,323130,6,315122,0,0,0,0,0,0,0,0,0,0,0,0,250427_BiDcHS_753,,
+1999,1999,2199,18522,18522,325471,325471,9,9,9,8,0,1,0,0,0,1,C357EA2822755E3EC5CBDA0BBE4587C1,1950,1950,1213,1213,http://www.mlg-johndoe.com/,1,1,D43F47063D7108B1C7FCA7C3680B990A-2,https://mlg-johndoe.com/,1213,1942,1892,1942,1942,1,0,1110,0,100,100,-1,100,-1,-1,100,-1,-1,2341,0,-1,-1,267068,0,Fastly,1,1,0,0,0,5,0,16,14,132,11,27,0,0,0,8,0,1984,iad-us-asg-45n6-10.10.1.26,1745785814,Linux 6.8.0-1018-gcp,Linux 6.8.0-1018-gcp,x86_64 x86_64,1745785818,134.0.0.0,134.0.0.0,8,16,6450,54.84693878,https://mlg-johndoe.com/,mlg-johndoe.com,https://mlg-johndoe.com,60,1950,1892,1892,cdn-185-199-108-153.github.com,,ns59.domaincontrol.com,Chrome,Step_1,12971,http://www.mlg-johndoe.com/,24,"{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[{""url"":""https://mlg-johndoe.com/assets/John%20Doe-FINAL.png"",""width"":85,""height"":85,""naturalWidth"":500,""naturalHeight"":500},{""url"":""https://mlg-johndoe.com/assets/TicTacToe.png"",""width"":264,""height"":264,""naturalWidth"":2048,""naturalHeight"":2048},{""url"":""https://mlg-johndoe.com/assets/Snake.png"",""width"":264,""height"":264,""naturalWidth"":512,""naturalHeight"":512},{""url"":""https://mlg-johndoe.com/assets/Lock.png"",""width"":264,""height"":284,""naturalWidth"":594,""naturalHeight"":640},{""url"":""https://mlg-johndoe.com/assets/Blackjack.png"",""width"":264,""height"":261,""naturalWidth"":640,""naturalHeight"":633}]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}",-0.32,-0.01,"width=<device-width>, initial-scale=1.0","<html lang=""en""><head>
+    <link rel=""stylesheet"" href=""./stylesheets/ProjectWebsite.css"">
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=<device-width>, initial-scale=1.0"">
+    <title>John Doe</title>
+    <link rel=""icon"" type=""image/png"" href=""../assets/flavicon.png"">
+</head>
+<body>
+    <header>
+        <nav class=""navbar"">
+            <div class=""logo"">
+                <a href=""#"">John Doe</a>
+            </div>
+            <ul class=""nav-links"">
+                <li class=""dropdown"">
+                    <a href=""#"">About Me</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""https://github.com/JDoe-3300"" target=""_blank"">GitHub</a></li>
+                        <li><a href=""https://www.linkedin.com/in/john-doe-367895360/"" target=""_blank"">Linkedin</a></li>
+                        <li><a href=""./pages/resume.html"">Resume</a></li>
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""#"">Projects</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"">Tic-Tac-Toe</a></li>
+                        <li><a href=""./George Morales - Snake/build/web/snake.html"">Snake</a></li>
+                        <li><a href=""./Sebastian - Hill Cipher/Linear.html"">Hill Cipher</a></li>
+                        <li><a href=""./Jack Dodge - Blackjack/blackjack.html"">Blackjack</a></li>
+                        
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""./pages/contact_me.html"">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class=""boxHeader"">
+        <p> welcome!!!! </p>
+    </div>
+
+    <div class=""boxContent"">
+        <div class=""boxContentLeft"">
+            <p>
+                Welcome to my portfolio! My name is John Doe.
+            </p><br>
+            <p>
+                My passion is to learn and experiment with various technologies that help bring
+                my ideas and passions to life. I focus on honing my skills in game design, programming,
+                and daily automation. I’m excited to share my journey and passion with you.
+            </p>
+        </div>
+    
+        <div class=""boxContentRight"">
+            <img src=""../assets/John Doe-FINAL.png"" alt=""Profile image"" class=""profileImage"">
+        </div>
+    </div>
+
+    
+
+    <div class=""card-container"">
+        <div class=""card"">
+            <img src=""../assets/TicTacToe.png"" class=""card-img"">
+          <h2>TicTacToe</h2>
+
+
+          <a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Snake.png"" class=""card-img"">
+          <h2>Snake</h2>
+
+          <a href=""./George Morales - Snake/build/web/snake.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Lock.png"" class=""card-img"">
+
+
+          <h2>Encryption</h2>
+          <a href=""./Sebastian - Hill Cipher/Linear.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+
+        <div class=""card"">
+            <img src=""../assets/Blackjack.png"" class=""card-img"">
+
+
+          <h2>BlackJack</h2>
+          <a href=""./Jack Dodge - Blackjack/blackjack.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+      
+
+
+
+</div></body></html>",2100,2000,2000,2000,2000,2100,2100,2002,text,P,81,57,1213,1162,1262,1262,1262,1999,808,808,1200,1200,1200,1208,1941,1941,1941,1941,1941,1999,1999,1942,2040,1942,0,0,0,5362,2000,0,250427_BiDcHS_753,2,1,298871,0,0,84,0,0,1,366109,1054,2,3488,0,0,0,1287,1,5142,323130,6,315006,0,0,0,0,0,0,0,0,0,0,0,0,250427_BiDcHS_753,0,
+2037,2037,2196,18522,18522,325471,325471,9,9,9,8,0,1,0,0,0,1,56A131880B17BD31D6FFB4A76276F9FD,1963,1963,1296,1296,http://www.mlg-johndoe.com/,1,1,683CBC6F4762A14CFAA5C6B3A0D682CA-2,https://mlg-johndoe.com/,1296,1763,1692,1763,1763,1,0,1095,0,100,100,-1,100,-1,-1,100,-1,-1,2341,0,-1,-1,267068,0,Fastly,23,3,17,0,0,26,0,14,26,98,7,39,5,0,0,23,0,1917,iad-us-asg-wxjh-10.10.1.124,1745785815,Linux 6.8.0-1018-gcp,Linux 6.8.0-1018-gcp,x86_64 x86_64,1745785819,134.0.0.0,134.0.0.0,8,16,6510,55.31011045,https://mlg-johndoe.com/,mlg-johndoe.com,https://mlg-johndoe.com,60,1963,1692,1692,cdn-185-199-108-153.github.com,,ns59.domaincontrol.com,Chrome,Step_1,13824,http://www.mlg-johndoe.com/,24,"{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[{""url"":""https://mlg-johndoe.com/assets/John%20Doe-FINAL.png"",""width"":85,""height"":85,""naturalWidth"":500,""naturalHeight"":500},{""url"":""https://mlg-johndoe.com/assets/TicTacToe.png"",""width"":264,""height"":264,""naturalWidth"":2048,""naturalHeight"":2048},{""url"":""https://mlg-johndoe.com/assets/Snake.png"",""width"":264,""height"":264,""naturalWidth"":512,""naturalHeight"":512},{""url"":""https://mlg-johndoe.com/assets/Lock.png"",""width"":264,""height"":284,""naturalWidth"":594,""naturalHeight"":640},{""url"":""https://mlg-johndoe.com/assets/Blackjack.png"",""width"":264,""height"":261,""naturalWidth"":640,""naturalHeight"":633}]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}",-0.32,-0.01,"width=<device-width>, initial-scale=1.0","<html lang=""en""><head>
+    <link rel=""stylesheet"" href=""./stylesheets/ProjectWebsite.css"">
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=<device-width>, initial-scale=1.0"">
+    <title>John Doe</title>
+    <link rel=""icon"" type=""image/png"" href=""../assets/flavicon.png"">
+</head>
+<body>
+    <header>
+        <nav class=""navbar"">
+            <div class=""logo"">
+                <a href=""#"">John Doe</a>
+            </div>
+            <ul class=""nav-links"">
+                <li class=""dropdown"">
+                    <a href=""#"">About Me</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""https://github.com/JDoe-3300"" target=""_blank"">GitHub</a></li>
+                        <li><a href=""https://www.linkedin.com/in/john-doe-367895360/"" target=""_blank"">Linkedin</a></li>
+                        <li><a href=""./pages/resume.html"">Resume</a></li>
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""#"">Projects</a>
+                    <ul class=""dropdown-menu"">
+                        <li><a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"">Tic-Tac-Toe</a></li>
+                        <li><a href=""./George Morales - Snake/build/web/snake.html"">Snake</a></li>
+                        <li><a href=""./Sebastian - Hill Cipher/Linear.html"">Hill Cipher</a></li>
+                        <li><a href=""./Jack Dodge - Blackjack/blackjack.html"">Blackjack</a></li>
+                        
+                    </ul>
+                </li>
+                <li class=""dropdown"">
+                    <a href=""./pages/contact_me.html"">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class=""boxHeader"">
+        <p> welcome!!!! </p>
+    </div>
+
+    <div class=""boxContent"">
+        <div class=""boxContentLeft"">
+            <p>
+                Welcome to my portfolio! My name is John Doe.
+            </p><br>
+            <p>
+                My passion is to learn and experiment with various technologies that help bring
+                my ideas and passions to life. I focus on honing my skills in game design, programming,
+                and daily automation. I’m excited to share my journey and passion with you.
+            </p>
+        </div>
+    
+        <div class=""boxContentRight"">
+            <img src=""../assets/John Doe-FINAL.png"" alt=""Profile image"" class=""profileImage"">
+        </div>
+    </div>
+
+    
+
+    <div class=""card-container"">
+        <div class=""card"">
+            <img src=""../assets/TicTacToe.png"" class=""card-img"">
+          <h2>TicTacToe</h2>
+
+
+          <a href=""./West Manison - Tic Tac Toe/tic_tac_toe.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Snake.png"" class=""card-img"">
+          <h2>Snake</h2>
+
+          <a href=""./George Morales - Snake/build/web/snake.html"" class=""card-btn""> Play </a>
+
+        </div>
+      
+        <div class=""card"">
+            <img src=""../assets/Lock.png"" class=""card-img"">
+
+
+          <h2>Encryption</h2>
+          <a href=""./Sebastian - Hill Cipher/Linear.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+
+        <div class=""card"">
+            <img src=""../assets/Blackjack.png"" class=""card-img"">
+
+
+          <h2>BlackJack</h2>
+          <a href=""./Jack Dodge - Blackjack/blackjack.html"" class=""card-btn""> Play </a>
+          
+
+        </div>
+      
+
+
+
+</div></body></html>",1900,1800,1800,1800,1800,1900,1900,1803,text,P,113,84,1223,1174,1370,1370,1370,2037,818,818,1210,1210,1213,1220,1762,1762,1762,1762,1762,2037,2037,1763,1864,1763,0,0,0,5365,1800,0,250427_BiDcHS_753,3,1,295613,0,0,114,0,0,1,345510,1054,2,3488,0,0,0,1287,1,5142,323130,6,315494,0,0,0,0,0,0,0,0,0,0,0,0,250427_BiDcHS_753,0,0
