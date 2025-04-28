@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Source Code: BlackjackGame.py</title>
-    <link rel="stylesheet" href="../stylesheets/view_code.css">
+    <title>Source Code: linear.css</title>
+    <link rel="stylesheet" href="../stylesheets/viewCode.css">
 </head>
 
 <body>
@@ -11,26 +11,29 @@
   <header>
     <nav class="navbar">
         <div>
-          <a href="tic_tac_toe.html" class="back-link">← Back to Blackjack</a>
+          <a href="Linear.html" class="back-link">← Back to Encryption</a>
         </div>
         <ul class="nav-links">
             <li class="dropdown">
                 <a href="../index.html">Home</a>
             </li>
             <li class="dropdown">
-              <a href="./view_html_code.html">HTML</a>
+                <a href="./viewHtmlCode.html">HTML</a>
+            </li>
+            <li class="dropdown">
+              <a href="./viewJsCode.html">JavaScript</a>
             </li>
         </ul>
     </nav>
   </header>
   <!-- new code. show most updated version of the desired code -->
   <div class="container">
-    <h1>blackjack.py</h1>
+    <h1>linear.css</h1>
     <pre><code id="codeBlock">Loading code...</code></pre>
     
     <!-- implement script that accesses the necessary file -->
     <script>
-        fetch('blackjackGame.py')
+        fetch('linear.css')
           .then(response => response.text())
           .then(data => {
             document.getElementById('codeBlock').textContent = data;

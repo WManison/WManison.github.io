@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Source Code: tic_tac_toe.html</title>
-    <link rel="stylesheet" href="../stylesheets/view_code.css">
+    <title>Source Code: tic_tac_toe.css</title>
+    <link rel="stylesheet" href="../stylesheets/viewCode.css">
 </head>
 
 <body>
@@ -18,22 +18,22 @@
                 <a href="../index.html">Home</a>
             </li>
             <li class="dropdown">
-              <a href="./view_css_code.html">CSS</a>
+                <a href="./viewHtmlCode.html">HTML</a>
             </li>
             <li class="dropdown">
-                <a href="./view_js_code.html">JavaScript</a>
+              <a href="./viewJsCode.html">JavaScript</a>
             </li>
         </ul>
     </nav>
   </header>
   <!-- new code. show most updated version of the desired code -->
   <div class="container">
-    <h1>tic_tac_toe.html</h1>
+    <h1>ticTacToe.css</h1>
     <pre><code id="codeBlock">Loading code...</code></pre>
     
     <!-- implement script that accesses the necessary file -->
     <script>
-        fetch('tic_tac_toe.html')
+        fetch('ticTacToe.css')
           .then(response => response.text())
           .then(data => {
             document.getElementById('codeBlock').textContent = data;
