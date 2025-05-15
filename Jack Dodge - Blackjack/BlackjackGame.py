@@ -1,3 +1,12 @@
+'''
+Blackjack Game
+Jack Dodge
+4/27/2025
+University of Colorado Colorado Springs
+Copyright (c) 2025 Jack Dodge. All rights reserved.
+Licensed under the MIT License.
+'''
+
 import pygame
 import random
 import sys
@@ -130,7 +139,7 @@ def main():
                     if dealer_hand_value > 21:
                         message = "Dealer Busts! Player Wins!"
                     # If dealer hand greater than players dealer wins
-                    if dealer_hand_value > player_hand_value:
+                    elif dealer_hand_value > player_hand_value:
                         message = "Dealer Wins!"
                     # If dealer hand less than player hand player wins
                     if dealer_hand_value < player_hand_value:
