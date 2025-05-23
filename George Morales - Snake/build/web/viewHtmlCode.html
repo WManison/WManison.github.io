@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Source Code: snake.html</title>
-    <link rel="stylesheet" href="./../../../stylesheets/viewCode.css">
+    <title>Source Code: main.py (Snake Game)</title>
+    <link rel="stylesheet" href="../../../stylesheets/view_code.css">
 </head>
 
 <body>
@@ -15,22 +15,23 @@
         </div>
         <ul class="nav-links">
             <li class="dropdown">
-                <a href="./../../../index.html">Home</a>
+                <a href="../../../index.html">Home</a>
             </li>
             <li class="dropdown">
-              <a href="./viewPyCode.html">Python</a>
+              <a href="./view_html_code.html">HTML</a>
             </li>
         </ul>
+        
     </nav>
   </header>
   <!-- new code. show most updated version of the desired code -->
   <div class="container">
-    <h1>snake.html</h1>
+    <h1>main.py (Snake Game)</h1>
     <pre><code id="codeBlock">Loading code...</code></pre>
     
     <!-- implement script that accesses the necessary file -->
     <script>
-        fetch('snake.html')
+        fetch('../../main.py')
           .then(response => response.text())
           .then(data => {
             document.getElementById('codeBlock').textContent = data;
